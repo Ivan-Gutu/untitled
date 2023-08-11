@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Детальное описание товара</title>
+  <!-- Подключение стилей Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    /* Ваши дополнительные стили */
+  </style>
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="../products.html">Магазин</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../products.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Категории</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Магазин
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../products.html">Товары</a></li>
+              <li><a class="dropdown-item" href="../cart.html">Корзина</a></li>
+              <li><a class="dropdown-item" href="#">Оплата и доставка</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="container">
+  <div class="product-details">
+    <h2>Товар 1</h2>
+    <p>Описание товара 1</p>
+    <p>Цена: $100</p>
+    <img src="product1.jpg" alt="Товар 1" class="img-fluid">
+    <div class="additional-images">
+      <img src="product1-1.jpg" alt="Товар 1" class="img-fluid">
+      <img src="product1-2.jpg" alt="Товар 1" class="img-fluid">
+      <!-- Добавьте дополнительные изображения товара -->
+    </div>
+    <h3>Характеристики товара:</h3>
+    <ul>
+      <li>Характеристика 1: Значение 1</li>
+      <li>Характеристика 2: Значение 2</li>
+      <!-- Добавьте характеристики товара -->
+    </ul>
+    <button class="btn btn-primary" onclick="addToCart('Товар 1', 100)">Добавить в корзину</button>
+  </div>
+</div>
+<!-- Подключение скриптов Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../script.js"></script>
+<script src="../cart.js"></script>
+</body>
+</html>

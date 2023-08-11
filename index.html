@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--Меню-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="products.html">Магазин</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Categories</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Store
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="products.html">Products</a></li>
+                        <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                        <li><a class="dropdown-item" href="#">Payment and delivery</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <aside class="col-md-3">
+
+            <div class="card">
+                <article class="filter-group">
+                    <header class="card-header">
+                        <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" class="text-decoration-none">
+                            <i class="bi bi-chevron-down"></i>
+                            <h6 class="title">Product categories</h6>
+                        </a>
+                    </header>
+                    <div class="filter-content collapse show" id="collapse_1">
+                        <div class="card-body">
+                            <form class="pb-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Поиск">
+                                    <button class="btn btn-light" type="button"><i class="bi bi-search"></i></button>
+                                </div>
+                            </form>
+                            <ul class="list-menu list-unstyled text-left ">
+                                <l><a href="#" class="text-decoration-none">Notebooks</a></l>
+                                <li><a href="#" class="text-decoration-none">PCs</a></li>
+                                <li><a href="#" class="text-decoration-none">Smartphones</a></li>
+                                <li><a href="#" class="text-decoration-none">Tablets</a></li>
+                                <li><a href="#" class="text-decoration-none">TVs</a></li>
+                                <li><a href="#" class="text-decoration-none">Components</a></li>
+                            </ul>
+                        </div> <!-- card-body.// -->
+                    </div>
+                </article> <!-- filter-group  .// -->
+                <article class="filter-group">
+                    <header class="card-header">
+                        <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="true" class="text-decoration-none">
+                            <i class="bi bi-chevron-down"></i>
+                            <h6 class="card-title">Brands</h6>
+                        </a>
+                    </header>
+                    <div class="filter-content collapse show" id="collapse_2">
+                        <div class="card-body">
+                            <div class="form-check d-flex">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                                <span class="badge bg-dark rounded-pill ms-auto">120</span>
+                            </div>
+                            <div class="form-check d-flex">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                                <span class="badge bg-dark rounded-pill ms-auto">50</span>
+                            </div>
+                            <div class="form-check d-flex">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                                <span class="badge bg-dark rounded-pill ms-auto">25</span>
+                            </div>
+                        </div> <!-- card-body.// -->
+                    </div>
+                </article> <!-- filter-group .// -->
+                <article class="filter-group">
+                    <header class="card-header">
+                        <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="true" class="text-decoration-none">
+                            <i class="bi bi-chevron-down"></i>
+                            <h6 class="title">Price range</h6>
+                        </a>
+                    </header>
+                    <div class="filter-content collapse show" id="collapse_3">
+                        <div class="card-body">
+                            <input type="range" class="form-range" min="0" max="100" name="">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>Мин</label>
+                                    <input class="form-control" placeholder="$0" type="number">
+                                </div>
+                                <div class="form-group text-right col-md-6">
+                                    <label>Макс</label>
+                                    <input class="form-control" placeholder="$10,000" type="number">
+                                </div>
+                            </div>
+                            <button class="btn btn-block btn-primary">Применить</button>
+                        </div><!-- card-body.// -->
+                    </div>
+                </article> <!-- filter-group .// -->
+                <article class="filter-group">
+                    <header class="card-header">
+                        <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_4" aria-expanded="true" class="text-decoration-none">
+                            <i class="bi bi-chevron-down"></i>
+                            <h6 class="title">Options</h6>
+                        </a>
+                    </header>
+                    <div class="filter-content collapse show" id="collapse_4">
+                        <div class="card-body">
+                            <label class="checkbox-btn d-flex">
+                                <input class="me-2" type="checkbox">
+                                <span class="btn btn-light">Black</span>
+                            </label>
+                            <label class="checkbox-btn d-flex">
+                                <input class="me-2" type="checkbox">
+                                <span class="btn btn-light">White</span>
+                            </label>
+                            <label class="checkbox-btn d-flex">
+                                <input class="me-2" type="checkbox">
+                                <span class="btn btn-light">Blue</span>
+                            </label>
+                            <label class="checkbox-btn d-flex">
+                                <input class="me-2" type="checkbox">
+                                <span class="btn btn-light">Red</span>
+                            </label>
+                            <label class="checkbox-btn d-flex">
+                                <input class="me-2" type="checkbox">
+                                <span class="btn btn-light">Green</span>
+                            </label>
+                            <label class="checkbox-btn d-flex">
+                                <input class="me-2" type="checkbox">
+                                <span class="btn btn-light">Yellow</span>
+                            </label>
+                        </div><!-- card-body.// -->
+                    </div>
+                </article> <!-- filter-group .// -->
+                <article class="filter-group">
+                    <header class="card-header">
+                        <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse_5" aria-expanded="false" class="text-decoration-none">
+                            <i class="bi bi-chevron-down"></i>
+                            <h6 class="title">Additional Filters</h6>
+                        </a>
+                    </header>
+                    <div class="filter-content collapse show" id="collapse_5">
+                        <div class="card-body">
+                            <label class="custom-control custom-radio">
+                                <input type="radio" name="myfilter_radio" checked="" class="custom-control-input">
+                                <div class="custom-control-label">Любое состояние</div>
+                            </label>
+                            <label class="custom-control custom-radio">
+                                <input type="radio" name="myfilter_radio" class="custom-control-input">
+                                <div class="custom-control-label">Совершенно новое</div>
+                            </label>
+                            <label class="custom-control custom-radio">
+                                <input type="radio" name="myfilter_radio" class="custom-control-input">
+                                <div class="custom-control-label">Подержанные товары</div>
+                            </label>
+                            <label class="custom-control custom-radio">
+                                <input type="radio" name="myfilter_radio" class="custom-control-input">
+                                <div class="custom-control-label">Очень старое</div>
+                            </label>
+                        </div><!-- card-body.// -->
+                    </div>
+                </article> <!-- filter-group -->
+            </div>
+        </aside>
+
+<!--Сортировка и количество товаров-->
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <label for="sortBy">Сортировать по:</label>
+                            <select id="sortBy" class="form-control">
+                                <option value="name">Название</option>
+                                <option value="priceAsc">Цена (возрастание)</option>
+                                <option value="priceDesc">Цена (убывание)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="itemsPerPage">Товаров на странице:</label>
+                            <select id="itemsPerPage" class="form-control">
+                                <option value="12">12</option>
+                                <option value="18">18</option>
+                                <option value="24">24</option>
+                                <option value="30">30</option>
+                                <option value="36">36</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="d-flex justify-content-center align-items-center h-100" >-->
+<!--                <div class="spinner-border text-primary" role="status">-->
+<!--                    <span class="visually-hidden">Loading...</spa   n>-->
+<!--                </div>-->
+<!--                <p class="mt-2">Загрузка...</p>-->
+<!--            </div>-->
+
+
+
+<!--Товары-->
+
+
+
+            <div class="col-md-12 mt-3">
+                <div class="row" id="productContainer"></div>
+                <nav class="d-flex justify-content-center align-items-center" aria-label="Page navigation">
+                    <button id="prevPageButton" class="btn btn-primary">Предыдущая страница</button>
+                    <ul class="pagination" id="pagination"></ul>
+                    <button id="nextPageButton" class="btn btn-primary">Следующая страница</button>
+                </nav>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="cart" class="cart  md-5">
+    <h2>Корзина</h2>
+    <ul id="cartItems"></ul>
+    <p>Итоговая сумма: $<span id="totalPrice">0</span></p>
+    <button id="checkoutButton" class="btn btn-primary">Оформить заказ</button>
+    <button id="clearCartButton" class="btn btn-danger">Очистить корзину</button>
+</div>
+
+<footer class="mt-5 py-3 text-center">
+    <p>&copy; 2023 Online Store</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="script.js"></script>
+<script src="cart.js"></script>
+<script src="dynamicProducts.js"></script>
+<!--<script src="pagination.js"></script>-->
+</body>
+</html>

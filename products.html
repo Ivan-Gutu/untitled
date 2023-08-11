@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн Магазин</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="products.html">Магазин</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Категории</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Магазин
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="products.html">Товары</a></li>
+                        <li><a class="dropdown-item" href="cart.html">Корзина</a></li>
+                        <li><a class="dropdown-item" href="#">Оплата и доставка</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="filter">
+        <label for="categoryFilter">Фильтр по категориям:</label>
+        <select id="categoryFilter">
+            <option value="all">Все</option>
+            <option value="electronics">Электроника</option>
+            <option value="clothing">Одежда</option>
+            <!-- Добавьте другие категории здесь -->
+        </select>
+    </div>
+    <input type="text" id="searchInput" placeholder="Поиск товаров">
+    <div class="col-md-12 mt-3">
+        <div class="row" id="productContainer"></div>
+        <nav class="d-flex justify-content-center align-items-center" aria-label="Page navigation">
+            <button id="prevPageButton" class="btn btn-primary">Предыдущая страница</button>
+            <ul class="pagination" id="pagination"></ul>
+            <button id="nextPageButton" class="btn btn-primary">Следующая страница</button>
+        </nav>
+    </div>
+    <div class="cart">
+        <h2>Корзина</h2>
+        <ul id="cartItems" class="list-group"></ul>
+        <p>Итоговая сумма: $<span id="totalPrice">0</span></p>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="cart.js"></script>
+<script src="dynamicProducts.js"></script>
+</body>
+</html>

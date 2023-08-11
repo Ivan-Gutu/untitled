@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Xiaomi Redmi 5G",
+    "description": "Мощный смартфон с отличной камерой",
+    "price": 350,
+    "image": "https://nowaera.com.ua/image/cache/catalog/unixml/460/41223/smartfon_xiaomi_redmi_note_12_turbo_12_512gb_black_qualcomm_sm7475_ab_snapdragon_7_gen_2_5000_mach-700x700.jpg",
+    "category": "Смартфоны"
+  },
+  {
+    "name": "Apple iPad 10.9' (10th gen)",
+    "description": "Легкий и компактный планшет для работы и развлечений",
+    "price": 250,
+    "image": "https://cdn-ultra.esempla.com/storage/webp/e483cd5f-330f-4b9c-955c-f2830f29086d.webp",
+    "category": "Планшеты"
+  },
+  {
+    "name": "Honor MagicBook 15",
+    "description": "Производительный ноутбук для работы и игр",
+    "price": 800,
+    "image": "https://www.honor.ru/content/dam/honor/ru/support-product-list/laptop/magicbook-15-2021/magicbook-15-listimage-pc.png",
+    "category": "Ноутбуки"
+  },
+  {
+    "name": "Телевизор UltraHD",
+    "description": "4K телевизор с ярким и четким изображением",
+    "price": 600,
+    "image": "https://cdn-ultra.esempla.com/storage/webp/561d6d8f-0db6-4c39-bac8-4d7b73b6a2da.webp",
+    "category": "Телевизоры"
+  },
+  {
+    "name": "Процессор Core i7",
+    "description": "Мощный процессор для настольных компьютеров",
+    "price": 300,
+    "image": "https://xstore.md/images/product/2023/02/xstore.md-Intel-Core-i7-12700F,-Tray.jpg",
+    "category": "Процессоры"
+  },
+  {
+    "name": "Видеокарта GTX 3080",
+    "description": "Графическая карта высокой производительности",
+    "price": 700,
+    "image": "https://ksd-images.lt/display/aikido/store/9811c981fb4517a9f4be83f7bf60f4bd.jpg",
+    "category": "Видеокарты"
+  },
+  {
+    "name": "Transcend StoreJet 25MC 1TB",
+    "description": "Внутренний HDD для дополнительного хранения данных",
+    "price": 60,
+    "image": "https://i2hard.ru/upload/resize_cache/iblock/472/767_974_2/472075de26671cd0a6d2579ec7e85ff2.jpg",
+    "category": "Жесткие диски"
+  },
+  {
+    "name": "Материнская плата Z590",
+    "description": "Материнская плата для современных процессоров",
+    "price": 180,
+    "image": "https://www.asus.com/microsite/motherboard/Intel-Rocket-Lake-Z590-H570-B560-series/ru/websites/img/pd/ROG-Maximus-XIII-Extreme.png",
+    "category": "Материнские платы"
+  },
+  {
+    "name": "Видеокарта RTX 3070",
+    "description": "Мощная игровая видеокарта",
+    "price": 50,
+    "image": "https://xstore.md/images/product/2023/03/xstore.md-Plac%C4%83-video-MSI-GeForce-RTX-3070-Ti-GAMING-X-TRIO.jpg",
+    "category": "Видеокарты"
+  },
+  {
+    "name": "Видеокарта 2080 Ti",
+    "description": "Мощная видеокарта на 12 Gb для игр",
+    "price": 20,
+    "image": "https://static.gigabyte.com/StaticFile/Image/Global/69d2d955e065a882b704641e2920ccf8/Product/23150/Png",
+    "category": "Видеокарты"
+  },
+  {
+    "name": "Видеокарта 1650 Super",
+    "description": "Мощная видеокарта на 6 GB",
+    "price": 45,
+    "image": "https://www.fantastic.md/images/cache/goods_image/big/goods_image_205076_1814196380484540258.webp",
+    "category": "Видеокарты"
+  },
+  {
+    "name": "iPhone 12",
+    "description": "Мощный смартфон с отличной камерой и большим экраном",
+    "price": 120,
+    "image": "https://a.allegroimg.com/s600/110903/a62de5584055a6b5d62b4ad84dd0/Smartfon-IPHONE-12-128GB-KOLORY-GRATISY-KL-A",
+    "category": "Смартфоны"
+  },
+  {
+    "name": "Asus Zenfone",
+    "description": "Мощный смартфон с отличной камерой и большим экраном",
+    "price": 400,
+    "image": "https://mtscdn.ru/upload/iblock/9c0/smartfon_asus_zenfone_5_lite_zc600kl_red_1.jpg",
+    "category": "Смартфоны"
+  },
+  {
+    "name": "Планшет ABC",
+    "description": "Легкий и компактный планшет с высоким разрешением экрана",
+    "price": 270,
+    "image": "product14.jpg",
+    "category": "Планшеты"
+  },
+  {
+    "name": "Ноутбук Ultra",
+    "description": "Тонкий и легкий ноутбук с продолжительным временем работы",
+    "price": 900,
+    "image": "product15.jpg",
+    "category": "Ноутбуки"
+  },
+  {
+    "name": "Телевизор OLED",
+    "description": "Телевизор с технологией OLED и глубокими черными цветами",
+    "price": 750,
+    "image": "product16.jpg",
+    "category": "Телевизоры"
+  },
+  {
+    "name": "Процессор Core i9",
+    "description": "Высокопроизводительный процессор для геймеров и профессионалов",
+    "price": 500,
+    "image": "product17.jpg",
+    "category": "Процессоры"
+  },
+  {
+    "name": "Видеокарта RTX 3090",
+    "description": "Мощная видеокарта для игр в 4K разрешении",
+    "price": 1000,
+    "image": "product18.jpg",
+    "category": "Видеокарты"
+  },
+  {
+    "name": "SSD 1ТБ",
+    "description": "Быстрый твердотельный накопитель с большой ёмкостью",
+    "price": 80,
+    "image": "product19.jpg",
+    "category": "Жесткие диски"
+  },
+  {
+    "name": "Материнская плата X570",
+    "description": "Плата с расширенными возможностями для разгона",
+    "price": 220,
+    "image": "product20.jpg",
+    "category": "Материнские платы"
+  },
+  {
+    "name": "iPhone 13",
+    "description": "Мощный смартфон с улучшенной камерой и производительностью.",
+    "price": 950,
+    "image": "iphone13.jpg",
+    "category": "Смартфоны"
+  },
+  {
+    "name": "Samsung Galaxy Tab S7",
+    "description": "Планшет с высоким разрешением экрана и мощным процессором.",
+    "price": 750,
+    "image": "galaxytabs7.jpg",
+    "category": "Планшеты"
+  },
+  {
+    "name": "Dell XPS 15",
+    "description": "Ноутбук с 4K дисплеем и отличной производительностью.",
+    "price": 1350,
+    "image": "dellxps15.jpg",
+    "category": "Ноутбуки"
+  },
+  {
+    "name": "LG OLED C1",
+    "description": "4K телевизор с качественной цветопередачей и контрастностью.",
+    "price": 1600,
+    "image": "lgoledc1.jpg",
+    "category": "Телевизоры"
+  },
+  {
+    "name": "AMD Ryzen 9 5900X",
+    "description": "Мощный процессор для настольных компьютеров с 12 ядрами.",
+    "price": 550,
+    "image": "ryzen5900x.jpg",
+    "category": "Процессоры"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3080",
+    "description": "Графическая карта высокой производительности для игр и графики.",
+    "price": 850,
+    "image": "rtx3080.jpg",
+    "category": "Видеокарты"
+  },
+  {
+    "name": "Seagate Barracuda 2TB",
+    "description": "2TB жесткий диск для дополнительного хранения данных.",
+    "price": 90,
+    "image": "seagatebarracuda.jpg",
+    "category": "Жесткие диски"
+  },
+  {
+    "name": "MSI MPG Z590 Gaming Edge",
+    "description": "Материнская плата для геймеров с поддержкой новых процессоров.",
+    "price": 220,
+    "image": "msiz590.jpg",
+    "category": "Материнские платы"
+  },
+  {
+    "name": "Женское Платье в полоску",
+    "description": "Модное женское платье в полоску с элегантным дизайном.",
+    "price": 65,
+    "image": "stripeddress.jpg",
+    "category": "Жесткие диски"
+  },
+  {
+    "name": "Мужская Футболка с логотипом",
+    "description": "Стильная футболка с логотипом бренда для повседневного стиля.",
+    "price": 25,
+    "image": "logotee.jpg",
+    "category": "Материнские платы"
+  },
+  {
+    "name": "Джинсы Slim Fit",
+    "description": "Комфортные джинсы в стиле Slim Fit для активного образа жизни.",
+    "price": 40,
+    "image": "slimfitjeans.jpg",
+    "category": "Видеокарты"
+  },
+  {
+    "name": "Кожаная Куртка",
+    "description": "Классическая кожаная куртка из натуральной кожи для стильного образа.",
+    "price": 180,
+    "image": "leatherjacket.jpg",
+    "category": "Смартфоны"
+  },
+  {
+    "name": "Смартфон 33",
+    "description": "Описание продукта 33",
+    "price": 170,
+    "image": "product33.jpg",
+    "category": "Смартфоны"
+  }
+]

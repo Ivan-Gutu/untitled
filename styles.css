@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.product {
+
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.list-group-item ul {
+    display: none;
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.list-group-item.open ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.list-group-item ul .dropdown-item {
+    padding-left: 15px;
+}
+/* Стилизация столбца категорий с тенью */
+.shadow {
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2) !important;
+    font-family: Arial, sans-serif;
+}
+
+/* Увеличение отступов для внутренних элементов */
+.list-group-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none; /* Убираем границу */
+}
+
+/* Отступы для подкатегорий */
+.ml-3 {
+    margin-left: 1rem !important;
+}
+
+/* Увеличение размера шрифта */
+.category-link, .subcategory-link {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#cart {
+    max-width: 100% !important;
+    margin: 0 20px !important;
+}
+
+.card {
+    height: 100% !important;
+}
+.card-title {
+    text-align: center;
+    height: auto;
+}
+
+.card-body {
+    height: 90%;
+}
+
+.card-btn {
+    height: 25%;
+}
+
+.pagination {
+    margin: 0 20px !important;
+}
+
+.card-text {
+    text-align: center;
+}
+.spinner-container {
+    display: none; /* Спрячем спиннер по умолчанию */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
